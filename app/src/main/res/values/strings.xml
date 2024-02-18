@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">SODV3203_ArtSpaceApp_IreneChan</string>
+    <string name="cat_image_1">Cat Image 1</string>
+    <string name="bubu_sitting_on_the_sofa">Bubu sitting on the sofa</string>
+    <string name="irene_chan">Irene Chan</string>
+    <string name="year_2015">2015</string>
+    <string name="cat_image_2">Cat Image 2</string>
+    <string name="dudu_sitting_on_the_sofa">Dudu sitting on the sofa</string>
+    <string name="edan_ho">Edan Ho</string>
+    <string name="year_2020">2020</string>
+    <string name="cat_image_3">Cat Image 3</string>
+    <string name="bubu_and_dudu">Bubu and Dudu</string>
 </resources>

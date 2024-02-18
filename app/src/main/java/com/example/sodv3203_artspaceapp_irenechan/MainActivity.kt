@@ -37,6 +37,7 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role.Companion.Button
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -65,32 +66,32 @@ class MainActivity : ComponentActivity() {
 fun ArtSpaceApp(modifier: Modifier = Modifier) {
     var currArtworkId by remember { mutableStateOf(0) }
     var artworkResource = R.drawable.img_cat_1
-    var artworkResourceText = "Cat Image 1"
-    var artworkDescription = "Bubu on the bed"
-    var artworkAuthor = "Irene Chan"
-    var artworkYear = "2015"
+    var artworkResourceText = stringResource(R.string.cat_image_1)
+    var artworkDescription = stringResource(R.string.bubu_sitting_on_the_sofa)
+    var artworkAuthor = stringResource(R.string.irene_chan)
+    var artworkYear = stringResource(R.string.year_2015)
 
     when (currArtworkId) {
         0 -> {
             artworkResource = R.drawable.img_cat_1
-            artworkResourceText = "Cat Image 1"
-            artworkDescription = "Bubu sitting on the sofa"
-            artworkAuthor = "Irene Chan"
-            artworkYear = "2015"
+            artworkResourceText = stringResource(R.string.cat_image_1)
+            artworkDescription = stringResource(R.string.bubu_sitting_on_the_sofa)
+            artworkAuthor = stringResource(R.string.irene_chan)
+            artworkYear = stringResource(R.string.year_2015)
         }
         1 -> {
             artworkResource = R.drawable.img_cat_2
-            artworkResourceText = "Cat Image 2"
-            artworkDescription = "Dudu sitting on the sofa"
-            artworkAuthor = "Edan Ho"
-            artworkYear = "2020"
+            artworkResourceText = stringResource(R.string.cat_image_2)
+            artworkDescription = stringResource(R.string.dudu_sitting_on_the_sofa)
+            artworkAuthor = stringResource(R.string.edan_ho)
+            artworkYear = stringResource(R.string.year_2020)
         }
         2 -> {
             artworkResource = R.drawable.img_cat_3
-            artworkResourceText = "Cat Image 3"
-            artworkDescription = "Bubu and Dudu"
-            artworkAuthor = "Irene Chan"
-            artworkYear = "2020"
+            artworkResourceText = stringResource(R.string.cat_image_3)
+            artworkDescription = stringResource(R.string.bubu_and_dudu)
+            artworkAuthor = stringResource(R.string.irene_chan)
+            artworkYear = stringResource(R.string.year_2020)
         }
     }
 
